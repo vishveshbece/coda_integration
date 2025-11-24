@@ -222,7 +222,7 @@ def start_oauth_flow():
 
     return jsonify({
         "message": "User authorization required. Redirect user to the URL below.",
-        "redirect_url": auth_url,
+        "auth_url": auth_url,
         "next_step_simulation": f"To simulate successful authorization, manually hit: {request.host_url}oauth/callback?code=cliq_auth_code_{cliq_user_id}&state={state}"
     }), 202 
 
