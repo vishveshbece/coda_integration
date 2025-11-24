@@ -19,9 +19,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 THIRD_PARTY_CONFIG = {
     # Actual Zoho Accounts URL
     "ZOHO_ACCOUNTS_URL": "https://accounts.zoho.com",
-    "CLIENT_ID": "MOCK.CLIENT_ID_FROM_ZOHO_CONSOLE", 
-    "CLIENT_SECRET": "MOCK.CLIENT_SECRET_FROM_ZOHO_CONSOLE",
-    "REDIRECT_URI": "http://your-render-app-url.com/oauth/callback", # Update this!
+    "CLIENT_ID": "1000.32B09XAMP2H3NPXDRTXQAQ5LTY36ZJ", 
+    "CLIENT_SECRET": "167da2a5601f04fb02b17e42d9a23eb58d1ea46779",
+    "REDIRECT_URI": "https://coda-integration.onrender.com/oauth/callback", # Update this!
     # Scopes needed for Cliq functionality
     "SCOPE": "ZohoCliq.Messages.ALL,ZohoCliq.Webhooks.CREATE,ZohoCliq.MediaSession.READ,ZohoCliq.Attachments.READ,ZohoCliq.Chats.READ",
     
